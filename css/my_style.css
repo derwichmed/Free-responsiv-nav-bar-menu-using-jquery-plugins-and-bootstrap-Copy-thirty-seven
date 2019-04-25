@@ -1,0 +1,127 @@
+.side_bar_menu{
+    background-color: #f1f0f3;
+    width: 300px;
+}
+.side_bar_menu .side_item{
+    cursor: pointer;
+}
+.side_bar_menu_one .side_item header{
+    background-image: linear-gradient(to bottom,#68b0fe,#4477cc);
+    height: 54px;
+    padding-right: 10px;
+    border: #81acdf 2px solid;
+    border-bottom: #507dae 2px solid
+}
+.side_bar_menu_two .side_item header{
+    background-image: linear-gradient(to bottom,#9bff43,#77c433);
+    height: 54px;
+    padding-right: 10px;
+    border: #74da19 2px solid;
+    border-bottom: #77c433 2px solid
+}
+.side_bar_menu_three .side_item header{
+    background-image: linear-gradient(to bottom,#f9b600,#df8401);
+    height: 54px;
+    padding-right: 10px;
+    border: #bd7001 2px solid;
+    border-bottom: #bd7001 2px solid
+}
+.side_bar_menu .side_item header > div{
+    height: 50px
+}
+.side_bar_menu_three .side_item header .icon{
+    background-color: #df8401;
+    width: 60px;
+    padding-top: 12px;
+    box-shadow: 2px 2px 4px #df8401
+}
+.side_bar_menu_one .side_item header .icon{
+    background-color: #507dae;
+    width: 60px;
+    padding-top: 12px;
+    box-shadow: 2px 2px 4px #507dae
+}
+.side_bar_menu_two .side_item header .icon{
+    background-color: #77c433;
+    width: 60px;
+    padding-top: 12px;
+    box-shadow: 2px 2px 4px #77c433
+}
+.side_bar_menu .side_item header .icon img{
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: auto;
+}
+.side_bar_menu .side_item header .label{
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    font-family: 'Poppins';
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: white;
+    padding-top: 15px
+}
+.side_bar_menu_three .side_item header .drop_down_icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-image: linear-gradient(to bottom,#ffdeb0,#ff9600);
+    padding-top: 8px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px #507dae
+}
+.side_bar_menu_one .side_item header .drop_down_icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-image: linear-gradient(to bottom,#f3f8f7,#61a4e0);
+    padding-top: 8px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px #507dae
+}
+.side_bar_menu_two .side_item header .drop_down_icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-image: linear-gradient(to bottom,#ceffa2,#78ff00);
+    padding-top: 8px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px #507dae
+}
+.side_bar_menu .side_item header .drop_down_icon img{
+    width: 15px;
+    height: 15px;
+    display: block;
+    margin: auto
+}
+.sub_side_menu > div[class*=container]{
+    padding: 0px
+}
+.sub_side_menu .item{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+    width: 100%;
+    border-bottom: #d4d3d6 2px solid
+}
+.sub_side_menu .item .icon{
+    width: 60px;
+}
+.sub_side_menu .item .icon img{
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: auto;
+}
+.sub_side_menu .item .label{
+    font-size: 15px;
+    color: #4f4c50;
+    font-family: 'Poppins';
+}
+.sub_side_menu{
+}
+.side_bar_menu{
+    margin: 35px
+}
